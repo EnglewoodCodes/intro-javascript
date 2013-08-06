@@ -18,7 +18,7 @@
       	var Nickname="JS";
   	var Extension=".js";
 	var Creator="Brandon Eich";
-		var Year="1995";
+	var Year="1995";
       
       function Meet()
       {
@@ -27,6 +27,11 @@
   	document.getElementById("extension").innerHTML=Extension;
 	document.getElementById("creator").innerHTML=Creator;
 	document.getElementById("year").innerHTML=Year;
+      }
+      
+      function ChangeColor()
+      {
+      	document.getElementById("name").style.color="blue";
       }
     
     </script>
@@ -38,6 +43,8 @@
     <p>Extension: <span id="extension"></span></p>
     <p>Creator: <span id="creator"></span></p>
     <p>Year: <span id="year"></span></p>
+    
+    <button type="button" onclick="ChangeColor()">Blue!</button>
   
   </body>
 
