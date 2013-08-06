@@ -31,19 +31,17 @@
       
       function ChangeBlue()
       {
-      	document.getElementById("profile").style.color="blue";
+      	document.getElementsByTagName(p).style.color="blue";
       }
       
       function ChangeBlue()
       {
-      	document.getElementById("profile").style.color="black";
+      	document.getElementsByTagName(p).style.color="black";
       }
     
     </script>
     
     <button type="button" onclick="Meet()">Meet JavaScript</button>
-    
-    <div id="profile">
     
     	<p>Name: <span id="name"></span></p>
     	<p>Nickname: <span id="nickname"></span></p>
@@ -51,8 +49,6 @@
     	<p>Creator: <span id="creator"></span></p>
     	<p>Year: <span id="year"></span></p>
     	
-    </div>
-    
     <button type="button" onclick="ChangeBlue()">Blue!</button>
   
     <button type="button" onclick="ChangeBlack()">Black!</button>
