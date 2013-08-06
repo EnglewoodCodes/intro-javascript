@@ -29,22 +29,33 @@
 	document.getElementById("year").innerHTML=Year;
       }
       
-      function ChangeColor()
+      function ChangeBlue()
       {
-      	document.getElementById("name").style.color="blue";
+      	document.getElementById("profile").style.color="blue";
+      }
+      
+      function ChangeBlue()
+      {
+      	document.getElementById("profile").style.color="black";
       }
     
     </script>
     
     <button type="button" onclick="Meet()">Meet JavaScript</button>
     
-    <p>Name: <span id="name"></span></p>
-    <p>Nickname: <span id="nickname"></span></p>
-    <p>Extension: <span id="extension"></span></p>
-    <p>Creator: <span id="creator"></span></p>
-    <p>Year: <span id="year"></span></p>
+    <div id="profile">
     
-    <button type="button" onclick="ChangeColor()">Blue!</button>
+    	<p>Name: <span id="name"></span></p>
+    	<p>Nickname: <span id="nickname"></span></p>
+    	<p>Extension: <span id="extension"></span></p>
+    	<p>Creator: <span id="creator"></span></p>
+    	<p>Year: <span id="year"></span></p>
+    	
+    </div>
+    
+    <button type="button" onclick="ChangeBlue()">Blue!</button>
+  
+    <button type="button" onclick="ChangeBlack()">Black!</button>
   
   </body>
 
