@@ -15,10 +15,23 @@
     <script>
     
       var Name="JavaScript";
+      var Nickname="JS";
+  		var Extension=".js";
+			var Creator="Brandon Eich";
+			var Year="1995";
+      
+      function Meet()
+      {
+        document.getElementById("name").innerHTML=Name;
+        document.getElementById("nickname").innerHTML=Nickname;
+  			document.getElementById("extension").innerHTML=Extension;
+				document.getElementById("creator").innerHTML=Creator;
+				document.getElementById("year").innerHTML=Year;
+      }
     
     </script>
     
-    <button type="button">Meet JavaScript</button>
+    <button type="button" onclick="Meet()">Meet JavaScript</button>
     
     <p>Name: <span id="name"></span></p>
     <p>Nickname: <span id="nickname"></span></p>
